@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Guitar Tuner",
+    "slug": "guitar-tuner-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.mcdonaldlab.guitartuner",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mcdonaldlab.guitartuner",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone to tune your guitar."
+        }
+      ]
+    ]
+  }
+}
